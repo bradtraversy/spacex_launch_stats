@@ -1,6 +1,6 @@
-import React, { Component, Fragment, useEffect, useState } from 'react';
+import React, { Fragment, useState } from 'react';
 import gql from 'graphql-tag';
-import { Query, useQuery } from 'react-apollo';
+import { useQuery } from 'react-apollo';
 import LaunchItem from './LaunchItem';
 import MissionKey from './MissionKey';
 
