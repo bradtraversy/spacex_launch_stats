@@ -10,13 +10,14 @@ function Note() {
 				'alert-warning',
 				'alert-dismissible',
 				'fade',
-				'mt-4',
+				'm-4',
 				'fixed-bottom',
+				'position-fixed',
 				{
 					show: showModal
 				}
 			)}
-			style={{ left: window.innerWidth - 430, width: 400 }}
+			style={{ width: '95%' }}
 			role="alert"
 		>
 			<strong>Note!</strong> This page isn't hosted by{' '}
